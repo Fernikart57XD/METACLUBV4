@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Construye Frases</title>  
+    <link rel="stylesheet" href="BUILDINGSENTENCESXD.CSS">
+    </head>
+<body>
+  <main class="container">
+    <h1>Building Sentences</h1>
+    <div>
+        <section class="draggable-elements">
+            <img src="HOJA7.png" class="draggable" draggable="true" id="friends">
+            <img src="HOJA4.png" class="draggable" draggable="true" id="go">
+            <img src="HOJA6.png" class="draggable" draggable="true" id="my">
+            <img src="HOJA3.png" class="draggable" draggable="true" id="to">
+            <img src="HOJA2.png" class="draggable" draggable="true" id="want">
+            <img src="HOJA5.png" class="draggable" draggable="true" id="with">
+            <img src="HOJA1.png" class="draggable" draggable="true" id="ii"> 
+         </section>
+         <section class="droppable-elements">
+            <div class="droppable" data-draggable-id="ii"><span>I</span></div>
+            <div class="droppable" data-draggable-id="want"><span>want</span></div>
+            <div class="droppable" data-draggable-id="to"><span>to</span></div>
+            <div class="droppable" data-draggable-id="go"><span>go</span></div>
+            <div class="droppable" data-draggable-id="with"><span>with</span></div>
+            <div class="droppable" data-draggable-id="my"><span>my</span></div>
+            <div class="droppable" data-draggable-id="friends"><span>friends</span></div>
+         </section>
+  <div id="endMessage">
+    <h3>Well done!</h3>
+    <h3>¡Bien hecho!</h3>
+
+    <button onclick="playAgain()">Play Again</button>
+  </div>
+
+  <script src="BUILDINGSENTENCESXD.JS"></script>
+
+  <footer class="pie">
+    <a href="PHRASEMENU.HTML" class="btn-2">Salir</a>
+</footer>  
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: #036975;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 6, 10);
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-image: url("ESPACIOXD.jpg");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-register {
+    width: 200px;
+    background: #A406EE;
+    padding: 9px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 24px;
+    text-align: center;
+    font-family: 'arial';
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.46);
+}
+
+.pie {
+    background-color: rgba(255, 21, 235, 0.863);
+    padding: 1em 0;
+    text-align: center;
+    }    
+    
+    .return {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #00bb2d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 16px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+            
+    .return span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+              
+    .return span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+              
+    .return:hover span {
+    padding-right: 25px;
+    }
+              
+    .return:hover span:after {
+    opacity: 1;
+    right: 0;
+    }

@@ -1,0 +1,27 @@
+let numContainer = document.getElementById('num');
+let value = 0;
+let btnBtn1 = document.querySelector('.btn1');
+let btnBtn2 = document.querySelector('.btn2');
+let btnBtn3 = document.querySelector('.btn3');
+let btnBtn4 = document.querySelector('.btn4');
+let btnBtn5 = document.querySelector('.btn5');
+let btnBtn6 = document.querySelector('.btn6');
+let btnBtn7 = document.querySelector('.btn7');
+let btnBtn8 = document.querySelector('.btn8');
+let btnBtn9 = document.querySelector('.btn9');
+let btnBtn10 = document.querySelector('.btn10');
+let btnBtn11 = document.querySelector('.btn11');
+let btnBtn12 = document.querySelector('.btn12');
+
+btnBtn1.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtn2.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtn3.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtn4.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtn5.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtn6.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtn7.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtn8.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtn9.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtn10.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtn11.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtn12.addEventListener("click", () => {value++;numContainer.textContent = value});

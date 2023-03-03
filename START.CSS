@@ -1,0 +1,101 @@
+body {
+background-color: #24303c;
+font-family: 'Arial';
+}
+
+titol{
+font-family: 'arial';
+color: white;
+font-size: 70px;  
+}
+
+.form-register {
+width: 600px;
+background: #24303c;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'arial';
+color: white;
+font-size: 46px;
+}
+
+.form-register .botonxd {
+width: 100%;
+background: #F7E509;
+border: none;
+padding: 12px;
+color: #8a007e;
+margin: 16px 0;
+font-family: 'impact';
+font-size: 26px;
+}
+
+.form-register .botons {
+width: 100%;
+background: #F7E509;
+border: none;
+padding: 12px;
+color: #2e9c06;
+margin: 16px 0;
+font-family: 'impact';
+font-size: 26px;
+}
+
+.controls {
+width: 100%;
+background: #24303c;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid #1f53c5;
+font-family: 'Arial';
+font-size: 18px;
+}
+
+.contenedor {
+display: flex;
+justify-content: center;
+background-color: #24303c;
+padding: 35px;
+}
+   
+.btn-1 {
+background-color: #F7E509;
+border: 0px;
+padding: 50px;
+color: #000;
+margin-right: 60px;
+font-size: 40px;
+border-radius: 4px;
+}
+    
+.btn-2 {
+background-color: #F7E509;
+border: 0px;
+padding: 50px;
+color: #000;
+margin-right: 60px;
+font-size: 40px;
+border-radius: 4px;
+}
+
+.btn-3 {
+background-color: #F7E509;
+border: 0px;
+padding: 50px;
+color: #000;
+font-size: 40px;
+border-radius: 4px;
+}
+
+.button__icon1{
+    background-color: #ff2301;
+}
+.button__icon2{
+    background-color: #0219D5;
+}
+.button__icon3{
+    background-color: #3EEE06;
+}

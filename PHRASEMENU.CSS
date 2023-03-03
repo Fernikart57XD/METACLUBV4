@@ -1,0 +1,88 @@
+body {
+margin: 0;
+background-color: #333;
+font-family: sans-serif;
+color: aliceblue;
+display: grid;
+min-height: 100vh;
+grid-template-rows: auto 1fr auto;
+background-image: url("CLOUD.PNG");
+}
+    
+.header {
+background-color : royalblue;
+padding: 1em 0;
+text-align: center;
+letter-spacing: 0.2em;
+margin-bottom: 1em;
+}
+
+.form-register {
+width: 900px;
+background: #ff2301;
+padding: 60px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'arial';
+color: white;
+}
+        
+.form-register h1{
+font-size: 40px;
+margin-bottom: 20px;
+text-align: center;
+}
+    
+#columnas{
+column-count:2;
+column-gap:20px;
+column-rule:4px dotted #ff2301;
+font-size: 22px;
+}
+
+.pie {
+background-color: rgba(255, 21, 235, 0.863);
+padding: 1em 0;
+text-align: center;
+}    
+
+.botons {
+display: inline-block;
+border-radius: 4px;
+background-color: #00bb2d;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 28px;
+padding: 16px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+    
+.botons span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+      
+.botons span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+      
+.botons:hover span {
+padding-right: 25px;
+}
+      
+.botons:hover span:after {
+opacity: 1;
+right: 0;
+}

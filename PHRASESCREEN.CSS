@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+    
+    body {
+    margin: 0;
+    background-color: #333;
+    font-family: sans-serif;
+    color: aliceblue;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    background-image: url("CLOUD.PNG");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .pie {
+    background-color: rgba(255, 21, 235, 0.863);
+    padding: 1em 0;
+    text-align: center;
+    }    
+    
+    .botons {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #00bb2d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 16px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    }
+            
+    .botons span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+              
+    .botons span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+              
+    .botons:hover span {
+    padding-right: 25px;
+    }
+              
+    .botons:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+

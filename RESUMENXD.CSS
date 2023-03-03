@@ -1,0 +1,46 @@
+body {
+margin: 0;
+background-color: #333;
+font-family: sans-serif;
+color: aliceblue;
+display: inline-flex;
+min-height: 100vh;
+grid-template-rows: auto 1fr auto;
+background-color: #2ac8e0;
+}
+
+.form-themes {
+width: 850px;
+height: 450px;
+background: #1c1171;
+padding: 60px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'arial';
+color: white;
+align-items: center;
+}
+
+.form-games {
+width: 350px;
+height: 450px;
+background: #161a74;
+padding: 60px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'arial';
+color: white;
+}
+
+.form-options {
+width: 400px;
+background: #161a74;
+padding: 60px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family: 'arial';
+color: white;
+}

@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+font-family: 'Arial';
+background-color: #1975ff;
+background-image: url(GALAXYXD.PNG);    
+background-attachment: fixed;
+background-size:cover;
+}
+
+.main-container{
+border: 2px solid white;
+width: 90%;
+margin: 50px auto;
+display: flex;
+padding-top: 30px;
+flex-direction: column;
+gap: 24px;
+}
+
+.draggable-elements {
+display: flex;
+justify-content: center;
+margin: 3px;
+}
+
+.draggable {
+height: 50px;
+width: 150px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 4rem;
+margin: 0rem 0.5rem;
+cursor: move;
+transition: opacity 0.2s;
+  }
+
+.draggable:hover {
+opacity: 0.5;
+}
+
+.images-elements {
+display: flex;
+justify-content: right;
+flex-direction: row;
+margin: 3px;
+}
+
+.appux {
+height: 150px;
+width: 150px;
+margin: 1rem auto;
+display: flex;
+justify-content: left;
+align-items: right;
+text-align: center;
+flex-direction: row;
+font-size: 4rem;
+font-weight: bold;
+transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+
+.pitch {
+height: 150px;
+width: 150px;
+margin: 1rem auto;
+display: flex;
+justify-content: right;
+align-items: center;
+text-align: center;
+flex-direction: row;
+font-size: 4rem;
+font-weight: bold;
+transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+
+.spongebob {
+height: 150px;
+width: 150px;
+margin: 1rem auto;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: row;
+font-size: 4rem;
+font-weight: bold;
+transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+    
+.cherrix {
+height: 150px;
+width: 150px;
+margin: 1rem auto;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: row;
+font-size: 4rem;
+font-weight: bold;
+transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+
+.watery {
+height: 150px;
+width: 150px;
+margin: 1rem auto;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: row;
+font-size: 4rem;
+font-weight: bold;
+transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+        
+.grappux {
+height: 150px;
+width: 150px;
+margin: 1rem auto;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: row;
+font-size: 4rem;
+font-weight: bold;
+transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+
+.rositafresita {
+height: 150px;
+width: 150px;
+margin: 1rem auto;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: row;
+font-size: 4rem;
+font-weight: bold;
+transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+
+.droppable-elements {
+display: flex;
+justify-content: center;
+margin: 3px;
+}
+
+.droppable {
+height: 50px;
+width: 150px;
+margin: 1rem auto;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: row;
+font-size: 4rem;
+font-weight: bold;
+background-color: #fff;
+border: 3px dashed #111;
+transition: border-width 0.2s, transform 0.2s, background-color 0.4s;
+}
+
+.droppable span {
+font-size: 1.25rem;
+pointer-events: none; 
+}
+  
+  
+.droppable.droppable-hover {
+    border-width: 5px;
+    transform: scale(1.1);
+}
+
+.droppable.dropped {
+    border-style: solid;
+    color: #fff;
+  }
+
+.droppable.dropped span {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+.droppable.dropped i {
+    pointer-events: none;
+}
+  
+.draggable.dragged {
+    user-select: none;
+    opacity: 0.1;
+    cursor: grab;
+}
+  
+.draggable.dragged:hover {
+    opacity: 0.1;
+}
+  
+@media (max-width: 600px) {
+    html { font-size: 14px; }
+    .draggable-elements { margin: 1.5rem; }
+}
+
+h1,h2{
+    text-align: center;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 50px;
+    width: 150px;
+    cursor: grab;
+}

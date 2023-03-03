@@ -1,0 +1,27 @@
+let numContainer = document.getElementById('num');
+let value = 0;
+let btnBtnMango = document.querySelector('.btn-mango');
+let btnBtnPera = document.querySelector('.btn-pera');
+let btnBtnPlatano = document.querySelector('.btn-platano');
+let btnBtnCereza = document.querySelector('.btn-cereza');
+let btnBtnUva = document.querySelector('.btn-uva');
+let btnBtnPina = document.querySelector('.btn-pina');
+let btnBtnColiflor = document.querySelector('.btn-coliflor');
+let btnBtnBerenjena = document.querySelector('.btn-berenjena');
+let btnBtnManzana = document.querySelector('.btn-manzana');
+let btnBtnFresa = document.querySelector('.btn-fresa');
+let btnBtnSandia = document.querySelector('.btn-sandia');
+let btnBtnDurazno = document.querySelector('.btn-durazno');
+
+btnBtnMango.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtnPera.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtnPlatano.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtnCereza.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtnUva.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtnPina.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtnColiflor.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtnBerenjena.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtnManzana.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtnFresa.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtnSandia.addEventListener("click", () => {value++;numContainer.textContent = value});
+btnBtnDurazno.addEventListener("click", () => {value++;numContainer.textContent = value});
